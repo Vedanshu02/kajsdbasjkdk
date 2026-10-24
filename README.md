@@ -9,7 +9,7 @@ Data: Elexon BMRS [`FUELHH`](https://bmrs.elexon.co.uk/api-documentation/endpoin
 (actual wind output) and [`WINDFOR`](https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/WINDFOR/stream)
 (wind forecasts), for purchase decisions made in **January 2026** (delivery days 2 Jan to 1 Feb 2026).
 
-**Live app:** _<Vercel URL: added after deployment>_
+**Live app:** https://kajsdbasjkdk.vercel.app · API docs: https://kajsdbasjkdk.vercel.app/api/docs
 
 | Day-ahead decision | Forecast accuracy |
 |---|---|
