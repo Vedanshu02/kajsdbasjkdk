@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# Env / OS / IDE
+.env
+.env.local
+.DS_Store
+.vscode/
+.idea/
+.vercel
+
+# Internal working docs (kept locally, not published)
+docs/DESIGN.md
+docs/PLAN.md
