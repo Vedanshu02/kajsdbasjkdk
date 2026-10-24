@@ -1,0 +1,42 @@
+{
+  "fetched_at": "2026-10-24T08:39:43Z",
+  "sources": {
+    "actuals": {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream",
+      "params": {
+        "settlementDateFrom": "2026-01-02",
+        "settlementDateTo": "2026-02-01",
+        "fuelType": "WIND"
+      }
+    },
+    "forecasts": {
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream",
+      "params": {
+        "publishDateTimeFrom": "2025-12-29T00:00:00+00:00",
+        "publishDateTimeTo": "2026-02-02T00:00:00+00:00"
+      }
+    }
+  },
+  "files": {
+    "actuals.csv": {
+      "rows": 1488,
+      "sha256": "e2ced29270e06a8448d31f9b2ceeecbbd4bdedb8e234f0f31807e971cea29704"
+    },
+    "forecasts.csv": {
+      "rows": 20440,
+      "sha256": "ea0d03cdd8e555f70b84f8416fe2d9ab6ebd3163d255152cbcff150a938af276"
+    }
+  },
+  "quality": {
+    "actual_periods": 1488,
+    "actual_missing_periods": 0,
+    "actual_mw_range": [
+      1695.0,
+      17805.0
+    ],
+    "forecast_rows": 20440,
+    "forecast_runs": 280,
+    "forecast_negative_horizon_rows": 4201,
+    "forecast_max_horizon_h": 66.5
+  }
+}
