@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-feature-settings: 'cv11', 'ss01';
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Recharts: keep focus outlines off SVG wrappers, tooltips handle a11y. */
+.recharts-wrapper:focus,
+.recharts-surface:focus {
+  outline: none;
+}

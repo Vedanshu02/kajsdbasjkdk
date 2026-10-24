@@ -1,0 +1,19 @@
+{
+  "count": 744,
+  "missing": 0,
+  "mean_actual_mw": 11285.507,
+  "mean_forecast_mw": 13031.445,
+  "mae_mw": 2022.47,
+  "rmse_mw": 2497.407,
+  "bias_mw": 1745.938,
+  "nmae_pct": 17.921,
+  "mape_pct": 21.853,
+  "mape_excluded": 0,
+  "p50_abs_mw": 1655.0,
+  "p90_abs_mw": 4154.4,
+  "p95_abs_mw": 5268.35,
+  "max_abs_mw": 6894.0,
+  "p05_error_mw": -1038.65,
+  "p95_error_mw": 5268.35,
+  "correlation": 0.932
+}
